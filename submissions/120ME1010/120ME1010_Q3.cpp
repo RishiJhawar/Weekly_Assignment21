@@ -5,6 +5,7 @@ public:
         int i,mp;
         int profit=0;
         mp=prices[0];
+        
         for(i=0; i<prices.size(); i++)
         {
             if(mp>prices[i])
